@@ -1,0 +1,18 @@
+body {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  padding: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+}
